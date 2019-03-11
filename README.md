@@ -4,7 +4,7 @@ A simple HTTP static file server written in Rust with may_minihttp, and refer to
 
 # Use
 
-* set listen port and **root_dir** 
+* set listen port and root_dir
 * cargo run 
 
 > Port is 8080 and the root_dir is "./" by default, ip is 127.0.0.1 in code fixedly.  
