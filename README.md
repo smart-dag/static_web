@@ -11,4 +11,4 @@ A simple HTTP static file server written in Rust with may_minihttp, and refer to
 > And you must cargo run in root directory after installing Rust toolchain
 
 # License
-MIT/Apache-2.0
+MIT
