@@ -16,7 +16,7 @@ fn main() -> Result<()> {
     config::show_config()?;
 
     let port = config::get_port();
-    let ip = String::from("127.0.0.1");
+    let ip = String::from("0.0.0.0");
 
     let server = HttpServer(server::Server).start(ip + ":" + &port)?;
     server.wait();
